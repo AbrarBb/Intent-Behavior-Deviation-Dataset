@@ -1,0 +1,1473 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "Owner",
+            "source_mapping": {
+              "start": 682,
+              "length": 20,
+              "filename_relative": "MyDeposit.sol",
+              "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x5c8546a7b86ba30202c09a84f5a72644a2a4f7ba/MyDeposit.sol",
+              "filename_short": "MyDeposit.sol",
+              "is_dependency": false,
+              "lines": [
+                47
+              ],
+              "starting_column": 5,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MyDeposit",
+                "source_mapping": {
+                  "start": 644,
+                  "length": 895,
+                  "filename_relative": "MyDeposit.sol",
+                  "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x5c8546a7b86ba30202c09a84f5a72644a2a4f7ba/MyDeposit.sol",
+                  "filename_short": "MyDeposit.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    99,
+                    100,
+                    101,
+                    102,
+                    103,
+                    104,
+                    105,
+                    106,
+                    107,
+                    108
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              }
+            }
+          },
+          {
+            "type": "variable",
+            "name": "Owner",
+            "source_mapping": {
+              "start": 354,
+              "length": 20,
+              "filename_relative": "MyDeposit.sol",
+              "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x5c8546a7b86ba30202c09a84f5a72644a2a4f7ba/MyDeposit.sol",
+              "filename_short": "MyDeposit.sol",
+              "is_dependency": false,
+              "lines": [
+                25
+              ],
+              "starting_column": 5,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Ownable",
+                "source_mapping": {
+                  "start": 329,
+                  "length": 309,
+                  "filename_relative": "MyDeposit.sol",
+                  "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x5c8546a7b86ba30202c09a84f5a72644a2a4f7ba/MyDeposit.sol",
+                  "filename_short": "MyDeposit.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "MyDeposit.Owner (MyDeposit.sol#47) shadows:\n\t- Ownable.Owner (MyDeposit.sol#25)\n",
+        "markdown": "[MyDeposit.Owner](MyDeposit.sol#L47) shadows:\n\t- [Ownable.Owner](MyDeposit.sol#L25)\n",
+        "first_markdown_element": "MyDeposit.sol#L47",
+        "id": "ec1ae08314abcd04ebd60d0f1dd184c5826c1e09931d3cac1706ee7bc559bd33",
+        "check": "shadowing-state",
+        "impact": "High",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "kill",
+            "source_mapping": {
+              "start": 1421,
+              "length": 114,
+              "filename_relative": "MyDeposit.sol",
+              "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x5c8546a7b86ba30202c09a84f5a72644a2a4f7ba/MyDeposit.sol",
+              "filename_short": "MyDeposit.sol",
+              "is_dependency": false,
+              "lines": [
+                99,
+                100,
+                101,
+                102,
+                103,
+                104,
+                105
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MyDeposit",
+                "source_mapping": {
+                  "start": 644,
+                  "length": 895,
+                  "filename_relative": "MyDeposit.sol",
+                  "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x5c8546a7b86ba30202c09a84f5a72644a2a4f7ba/MyDeposit.sol",
+                  "filename_short": "MyDeposit.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    99,
+                    100,
+                    101,
+                    102,
+                    103,
+                    104,
+                    105,
+                    106,
+                    107,
+                    108
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "kill()"
+            }
+          }
+        ],
+        "description": "MyDeposit.kill() (MyDeposit.sol#99-105) allows anyone to destruct the contract\n",
+        "markdown": "[MyDeposit.kill()](MyDeposit.sol#L99-L105) allows anyone to destruct the contract\n",
+        "first_markdown_element": "MyDeposit.sol#L99-L105",
+        "id": "f8775effed6184e7be7f9d43f6159064b8cd117bc95005c74232773d451f24a4",
+        "check": "suicidal",
+        "impact": "High",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "kill",
+            "source_mapping": {
+              "start": 1421,
+              "length": 114,
+              "filename_relative": "MyDeposit.sol",
+              "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x5c8546a7b86ba30202c09a84f5a72644a2a4f7ba/MyDeposit.sol",
+              "filename_short": "MyDeposit.sol",
+              "is_dependency": false,
+              "lines": [
+                99,
+                100,
+                101,
+                102,
+                103,
+                104,
+                105
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MyDeposit",
+                "source_mapping": {
+                  "start": 644,
+                  "length": 895,
+                  "filename_relative": "MyDeposit.sol",
+                  "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x5c8546a7b86ba30202c09a84f5a72644a2a4f7ba/MyDeposit.sol",
+                  "filename_short": "MyDeposit.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    99,
+                    100,
+                    101,
+                    102,
+                    103,
+                    104,
+                    105,
+                    106,
+                    107,
+                    108
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "kill()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "address(this).balance == 0",
+            "source_mapping": {
+              "start": 1460,
+              "length": 26,
+              "filename_relative": "MyDeposit.sol",
+              "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x5c8546a7b86ba30202c09a84f5a72644a2a4f7ba/MyDeposit.sol",
+              "filename_short": "MyDeposit.sol",
+              "is_dependency": false,
+              "lines": [
+                101
+              ],
+              "starting_column": 13,
+              "ending_column": 39
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "kill",
+                "source_mapping": {
+                  "start": 1421,
+                  "length": 114,
+                  "filename_relative": "MyDeposit.sol",
+                  "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x5c8546a7b86ba30202c09a84f5a72644a2a4f7ba/MyDeposit.sol",
+                  "filename_short": "MyDeposit.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    99,
+                    100,
+                    101,
+                    102,
+                    103,
+                    104,
+                    105
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MyDeposit",
+                    "source_mapping": {
+                      "start": 644,
+                      "length": 895,
+                      "filename_relative": "MyDeposit.sol",
+                      "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x5c8546a7b86ba30202c09a84f5a72644a2a4f7ba/MyDeposit.sol",
+                      "filename_short": "MyDeposit.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94,
+                        95,
+                        96,
+                        97,
+                        98,
+                        99,
+                        100,
+                        101,
+                        102,
+                        103,
+                        104,
+                        105,
+                        106,
+                        107,
+                        108
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "kill()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "MyDeposit.kill() (MyDeposit.sol#99-105) uses a dangerous strict equality:\n\t- address(this).balance == 0 (MyDeposit.sol#101)\n",
+        "markdown": "[MyDeposit.kill()](MyDeposit.sol#L99-L105) uses a dangerous strict equality:\n\t- [address(this).balance == 0](MyDeposit.sol#L101)\n",
+        "first_markdown_element": "MyDeposit.sol#L99-L105",
+        "id": "d35220f209e5a6250e11cae3a87d54d11ee8374c7d812cc8eb94d09a721c2f8f",
+        "check": "incorrect-equality",
+        "impact": "Medium",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "transferOwner",
+            "source_mapping": {
+              "start": 503,
+              "length": 131,
+              "filename_relative": "MyDeposit.sol",
+              "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x5c8546a7b86ba30202c09a84f5a72644a2a4f7ba/MyDeposit.sol",
+              "filename_short": "MyDeposit.sol",
+              "is_dependency": false,
+              "lines": [
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Ownable",
+                "source_mapping": {
+                  "start": 329,
+                  "length": 309,
+                  "filename_relative": "MyDeposit.sol",
+                  "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x5c8546a7b86ba30202c09a84f5a72644a2a4f7ba/MyDeposit.sol",
+                  "filename_short": "MyDeposit.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "transferOwner(address)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "Owner = _Owner",
+            "source_mapping": {
+              "start": 611,
+              "length": 14,
+              "filename_relative": "MyDeposit.sol",
+              "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x5c8546a7b86ba30202c09a84f5a72644a2a4f7ba/MyDeposit.sol",
+              "filename_short": "MyDeposit.sol",
+              "is_dependency": false,
+              "lines": [
+                37
+              ],
+              "starting_column": 13,
+              "ending_column": 27
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transferOwner",
+                "source_mapping": {
+                  "start": 503,
+                  "length": 131,
+                  "filename_relative": "MyDeposit.sol",
+                  "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x5c8546a7b86ba30202c09a84f5a72644a2a4f7ba/MyDeposit.sol",
+                  "filename_short": "MyDeposit.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Ownable",
+                    "source_mapping": {
+                      "start": 329,
+                      "length": 309,
+                      "filename_relative": "MyDeposit.sol",
+                      "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x5c8546a7b86ba30202c09a84f5a72644a2a4f7ba/MyDeposit.sol",
+                      "filename_short": "MyDeposit.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transferOwner(address)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Ownable.transferOwner(address) (MyDeposit.sol#33-39) should emit an event for: \n\t- Owner = _Owner (MyDeposit.sol#37) \n",
+        "markdown": "[Ownable.transferOwner(address)](MyDeposit.sol#L33-L39) should emit an event for: \n\t- [Owner = _Owner](MyDeposit.sol#L37) \n",
+        "first_markdown_element": "MyDeposit.sol#L33-L39",
+        "id": "99deb7ed8b9a43750fb2d338d0dd71bf496ac486b80e1f803769fc7ae6d32520",
+        "check": "events-access",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "onlyOwner",
+            "source_mapping": {
+              "start": 433,
+              "length": 56,
+              "filename_relative": "MyDeposit.sol",
+              "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x5c8546a7b86ba30202c09a84f5a72644a2a4f7ba/MyDeposit.sol",
+              "filename_short": "MyDeposit.sol",
+              "is_dependency": false,
+              "lines": [
+                29
+              ],
+              "starting_column": 5,
+              "ending_column": 61
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Ownable",
+                "source_mapping": {
+                  "start": 329,
+                  "length": 309,
+                  "filename_relative": "MyDeposit.sol",
+                  "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x5c8546a7b86ba30202c09a84f5a72644a2a4f7ba/MyDeposit.sol",
+                  "filename_short": "MyDeposit.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "onlyOwner()"
+            }
+          }
+        ],
+        "description": "Modifier Ownable.onlyOwner() (MyDeposit.sol#29) does not always execute _; or revert\n",
+        "markdown": "Modifier [Ownable.onlyOwner()](MyDeposit.sol#L29) does not always execute _; or revert\n",
+        "first_markdown_element": "MyDeposit.sol#L29",
+        "id": "e30bc8686d95fdf0c1043e4207c95af295928cd446a3f8660361b000840be847",
+        "check": "incorrect-modifier",
+        "impact": "Low",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 1134,
+              "length": 273,
+              "filename_relative": "MyDeposit.sol",
+              "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x5c8546a7b86ba30202c09a84f5a72644a2a4f7ba/MyDeposit.sol",
+              "filename_short": "MyDeposit.sol",
+              "is_dependency": false,
+              "lines": [
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90,
+                91,
+                92,
+                93,
+                94,
+                95
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MyDeposit",
+                "source_mapping": {
+                  "start": 644,
+                  "length": 895,
+                  "filename_relative": "MyDeposit.sol",
+                  "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x5c8546a7b86ba30202c09a84f5a72644a2a4f7ba/MyDeposit.sol",
+                  "filename_short": "MyDeposit.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    99,
+                    100,
+                    101,
+                    102,
+                    103,
+                    104,
+                    105,
+                    106,
+                    107,
+                    108
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "withdraw(uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "now >= openDate",
+            "source_mapping": {
+              "start": 1198,
+              "length": 15,
+              "filename_relative": "MyDeposit.sol",
+              "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x5c8546a7b86ba30202c09a84f5a72644a2a4f7ba/MyDeposit.sol",
+              "filename_short": "MyDeposit.sol",
+              "is_dependency": false,
+              "lines": [
+                83
+              ],
+              "starting_column": 13,
+              "ending_column": 28
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "withdraw",
+                "source_mapping": {
+                  "start": 1134,
+                  "length": 273,
+                  "filename_relative": "MyDeposit.sol",
+                  "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x5c8546a7b86ba30202c09a84f5a72644a2a4f7ba/MyDeposit.sol",
+                  "filename_short": "MyDeposit.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MyDeposit",
+                    "source_mapping": {
+                      "start": 644,
+                      "length": 895,
+                      "filename_relative": "MyDeposit.sol",
+                      "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x5c8546a7b86ba30202c09a84f5a72644a2a4f7ba/MyDeposit.sol",
+                      "filename_short": "MyDeposit.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94,
+                        95,
+                        96,
+                        97,
+                        98,
+                        99,
+                        100,
+                        101,
+                        102,
+                        103,
+                        104,
+                        105,
+                        106,
+                        107,
+                        108
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "withdraw(uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "MyDeposit.withdraw(uint256) (MyDeposit.sol#81-95) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- now >= openDate (MyDeposit.sol#83)\n",
+        "markdown": "[MyDeposit.withdraw(uint256)](MyDeposit.sol#L81-L95) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- [now >= openDate](MyDeposit.sol#L83)\n",
+        "first_markdown_element": "MyDeposit.sol#L81-L95",
+        "id": "0e8be73a54c4521201feb811c1b8866d3e798dffcad31bd184a3a2f4575a2649",
+        "check": "timestamp",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.24",
+            "source_mapping": {
+              "start": 299,
+              "length": 24,
+              "filename_relative": "MyDeposit.sol",
+              "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x5c8546a7b86ba30202c09a84f5a72644a2a4f7ba/MyDeposit.sol",
+              "filename_short": "MyDeposit.sol",
+              "is_dependency": false,
+              "lines": [
+                19
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".24"
+              ]
+            }
+          }
+        ],
+        "description": "Version constraint ^0.4.24 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)\n\t- DirtyBytesArrayToStorage\n\t- ABIDecodeTwoDimensionalArrayMemory\n\t- KeccakCaching\n\t- EmptyByteArrayCopy\n\t- DynamicArrayCleanup\n\t- ImplicitConstructorCallvalueCheck\n\t- TupleAssignmentMultiStackSlotComponents\n\t- MemoryArrayCreationOverflow\n\t- privateCanBeOverridden\n\t- SignedArrayStorageCopy\n\t- ABIEncoderV2StorageArrayWithMultiSlotElement\n\t- DynamicConstructorArgumentsClippedABIV2\n\t- UninitializedFunctionPointerInConstructor_0.4.x\n\t- IncorrectEventSignatureInLibraries_0.4.x\n\t- ABIEncoderV2PackedStorage_0.4.x\n\t- ExpExponentCleanup\n\t- EventStructWrongData.\nIt is used by:\n\t- ^0.4.24 (MyDeposit.sol#19)\n",
+        "markdown": "Version constraint ^0.4.24 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)\n\t- DirtyBytesArrayToStorage\n\t- ABIDecodeTwoDimensionalArrayMemory\n\t- KeccakCaching\n\t- EmptyByteArrayCopy\n\t- DynamicArrayCleanup\n\t- ImplicitConstructorCallvalueCheck\n\t- TupleAssignmentMultiStackSlotComponents\n\t- MemoryArrayCreationOverflow\n\t- privateCanBeOverridden\n\t- SignedArrayStorageCopy\n\t- ABIEncoderV2StorageArrayWithMultiSlotElement\n\t- DynamicConstructorArgumentsClippedABIV2\n\t- UninitializedFunctionPointerInConstructor_0.4.x\n\t- IncorrectEventSignatureInLibraries_0.4.x\n\t- ABIEncoderV2PackedStorage_0.4.x\n\t- ExpExponentCleanup\n\t- EventStructWrongData.\nIt is used by:\n\t- [^0.4.24](MyDeposit.sol#L19)\n",
+        "first_markdown_element": "MyDeposit.sol#L19",
+        "id": "34e616836d783bf68d30931cb16518ad59f6ed82008e4da4fd80b90b1df4dbf3",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is an outdated solc version. Use a more recent version (at least 0.8.0), if possible.\n",
+        "markdown": "solc-0.4.26 is an outdated solc version. Use a more recent version (at least 0.8.0), if possible.\n",
+        "first_markdown_element": "",
+        "id": "c7d638b1e771d6abd47c965e1dc1d602dca6481f45f5718f0f579b9cf306ec28",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_openDate",
+            "source_mapping": {
+              "start": 813,
+              "length": 14,
+              "filename_relative": "MyDeposit.sol",
+              "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x5c8546a7b86ba30202c09a84f5a72644a2a4f7ba/MyDeposit.sol",
+              "filename_short": "MyDeposit.sol",
+              "is_dependency": false,
+              "lines": [
+                55
+              ],
+              "starting_column": 24,
+              "ending_column": 38
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "initalize",
+                "source_mapping": {
+                  "start": 794,
+                  "length": 142,
+                  "filename_relative": "MyDeposit.sol",
+                  "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x5c8546a7b86ba30202c09a84f5a72644a2a4f7ba/MyDeposit.sol",
+                  "filename_short": "MyDeposit.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "MyDeposit",
+                    "source_mapping": {
+                      "start": 644,
+                      "length": 895,
+                      "filename_relative": "MyDeposit.sol",
+                      "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x5c8546a7b86ba30202c09a84f5a72644a2a4f7ba/MyDeposit.sol",
+                      "filename_short": "MyDeposit.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94,
+                        95,
+                        96,
+                        97,
+                        98,
+                        99,
+                        100,
+                        101,
+                        102,
+                        103,
+                        104,
+                        105,
+                        106,
+                        107,
+                        108
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "initalize(uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter MyDeposit.initalize(uint256)._openDate (MyDeposit.sol#55) is not in mixedCase\n",
+        "markdown": "Parameter [MyDeposit.initalize(uint256)._openDate](MyDeposit.sol#L55) is not in mixedCase\n",
+        "first_markdown_element": "MyDeposit.sol#L55",
+        "id": "0f6af3c0fe1f872eb28bfbd045809e0de3dfd8e223ff8bdd5aed82960332a718",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_Owner",
+            "source_mapping": {
+              "start": 526,
+              "length": 14,
+              "filename_relative": "MyDeposit.sol",
+              "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x5c8546a7b86ba30202c09a84f5a72644a2a4f7ba/MyDeposit.sol",
+              "filename_short": "MyDeposit.sol",
+              "is_dependency": false,
+              "lines": [
+                33
+              ],
+              "starting_column": 28,
+              "ending_column": 42
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "transferOwner",
+                "source_mapping": {
+                  "start": 503,
+                  "length": 131,
+                  "filename_relative": "MyDeposit.sol",
+                  "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x5c8546a7b86ba30202c09a84f5a72644a2a4f7ba/MyDeposit.sol",
+                  "filename_short": "MyDeposit.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Ownable",
+                    "source_mapping": {
+                      "start": 329,
+                      "length": 309,
+                      "filename_relative": "MyDeposit.sol",
+                      "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x5c8546a7b86ba30202c09a84f5a72644a2a4f7ba/MyDeposit.sol",
+                      "filename_short": "MyDeposit.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "transferOwner(address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Ownable.transferOwner(address)._Owner (MyDeposit.sol#33) is not in mixedCase\n",
+        "markdown": "Parameter [Ownable.transferOwner(address)._Owner](MyDeposit.sol#L33) is not in mixedCase\n",
+        "first_markdown_element": "MyDeposit.sol#L33",
+        "id": "85f831f5b6c0baa1cbdf71ef332b5b60b7161c3da18d6702e07923fd35818b9f",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "Owner",
+            "source_mapping": {
+              "start": 354,
+              "length": 20,
+              "filename_relative": "MyDeposit.sol",
+              "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x5c8546a7b86ba30202c09a84f5a72644a2a4f7ba/MyDeposit.sol",
+              "filename_short": "MyDeposit.sol",
+              "is_dependency": false,
+              "lines": [
+                25
+              ],
+              "starting_column": 5,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Ownable",
+                "source_mapping": {
+                  "start": 329,
+                  "length": 309,
+                  "filename_relative": "MyDeposit.sol",
+                  "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x5c8546a7b86ba30202c09a84f5a72644a2a4f7ba/MyDeposit.sol",
+                  "filename_short": "MyDeposit.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable Ownable.Owner (MyDeposit.sol#25) is not in mixedCase\n",
+        "markdown": "Variable [Ownable.Owner](MyDeposit.sol#L25) is not in mixedCase\n",
+        "first_markdown_element": "MyDeposit.sol#L25",
+        "id": "9ad699aa3b9327064cca9e9bd0a3af30f69bf4dd11f409884e31a9634a65a007",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "Owner",
+            "source_mapping": {
+              "start": 682,
+              "length": 20,
+              "filename_relative": "MyDeposit.sol",
+              "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x5c8546a7b86ba30202c09a84f5a72644a2a4f7ba/MyDeposit.sol",
+              "filename_short": "MyDeposit.sol",
+              "is_dependency": false,
+              "lines": [
+                47
+              ],
+              "starting_column": 5,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "MyDeposit",
+                "source_mapping": {
+                  "start": 644,
+                  "length": 895,
+                  "filename_relative": "MyDeposit.sol",
+                  "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x5c8546a7b86ba30202c09a84f5a72644a2a4f7ba/MyDeposit.sol",
+                  "filename_short": "MyDeposit.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    99,
+                    100,
+                    101,
+                    102,
+                    103,
+                    104,
+                    105,
+                    106,
+                    107,
+                    108
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable MyDeposit.Owner (MyDeposit.sol#47) is not in mixedCase\n",
+        "markdown": "Variable [MyDeposit.Owner](MyDeposit.sol#L47) is not in mixedCase\n",
+        "first_markdown_element": "MyDeposit.sol#L47",
+        "id": "d28daf5c4cf82818f58dd1cbb5f81d7127fd6435331cfc4254f0b889a5bfc223",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      }
+    ]
+  }
+}

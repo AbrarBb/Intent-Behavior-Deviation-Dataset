@@ -1,0 +1,704 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "owner",
+            "source_mapping": {
+              "start": 495,
+              "length": 20,
+              "filename_relative": "TopKing.sol",
+              "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x07f06a75ddf49de735d51dbf5c0a9062c034e7c6/TopKing.sol",
+              "filename_short": "TopKing.sol",
+              "is_dependency": false,
+              "lines": [
+                41
+              ],
+              "starting_column": 5,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "TopKing",
+                "source_mapping": {
+                  "start": 461,
+                  "length": 588,
+                  "filename_relative": "TopKing.sol",
+                  "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x07f06a75ddf49de735d51dbf5c0a9062c034e7c6/TopKing.sol",
+                  "filename_short": "TopKing.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              }
+            }
+          },
+          {
+            "type": "variable",
+            "name": "owner",
+            "source_mapping": {
+              "start": 254,
+              "length": 13,
+              "filename_relative": "TopKing.sol",
+              "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x07f06a75ddf49de735d51dbf5c0a9062c034e7c6/TopKing.sol",
+              "filename_short": "TopKing.sol",
+              "is_dependency": false,
+              "lines": [
+                15
+              ],
+              "starting_column": 5,
+              "ending_column": 18
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Owned",
+                "source_mapping": {
+                  "start": 231,
+                  "length": 224,
+                  "filename_relative": "TopKing.sol",
+                  "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x07f06a75ddf49de735d51dbf5c0a9062c034e7c6/TopKing.sol",
+                  "filename_short": "TopKing.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "TopKing.owner (TopKing.sol#41) shadows:\n\t- Owned.owner (TopKing.sol#15)\n",
+        "markdown": "[TopKing.owner](TopKing.sol#L41) shadows:\n\t- [Owned.owner](TopKing.sol#L15)\n",
+        "first_markdown_element": "TopKing.sol#L41",
+        "id": "c860d27d972901e26b552e0ea30f651500067f0e3f469acb38ad8021058cab39",
+        "check": "shadowing-state",
+        "impact": "High",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "takeAll",
+            "source_mapping": {
+              "start": 881,
+              "length": 164,
+              "filename_relative": "TopKing.sol",
+              "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x07f06a75ddf49de735d51dbf5c0a9062c034e7c6/TopKing.sol",
+              "filename_short": "TopKing.sol",
+              "is_dependency": false,
+              "lines": [
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "TopKing",
+                "source_mapping": {
+                  "start": 461,
+                  "length": 588,
+                  "filename_relative": "TopKing.sol",
+                  "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x07f06a75ddf49de735d51dbf5c0a9062c034e7c6/TopKing.sol",
+                  "filename_short": "TopKing.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "takeAll()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "require(bool)(block.timestamp >= withdrawDelay)",
+            "source_mapping": {
+              "start": 929,
+              "length": 41,
+              "filename_relative": "TopKing.sol",
+              "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x07f06a75ddf49de735d51dbf5c0a9062c034e7c6/TopKing.sol",
+              "filename_short": "TopKing.sol",
+              "is_dependency": false,
+              "lines": [
+                69
+              ],
+              "starting_column": 9,
+              "ending_column": 50
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "takeAll",
+                "source_mapping": {
+                  "start": 881,
+                  "length": 164,
+                  "filename_relative": "TopKing.sol",
+                  "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x07f06a75ddf49de735d51dbf5c0a9062c034e7c6/TopKing.sol",
+                  "filename_short": "TopKing.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "TopKing",
+                    "source_mapping": {
+                      "start": 461,
+                      "length": 588,
+                      "filename_relative": "TopKing.sol",
+                      "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x07f06a75ddf49de735d51dbf5c0a9062c034e7c6/TopKing.sol",
+                      "filename_short": "TopKing.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "takeAll()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "TopKing.takeAll() (TopKing.sol#67-75) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- require(bool)(block.timestamp >= withdrawDelay) (TopKing.sol#69)\n",
+        "markdown": "[TopKing.takeAll()](TopKing.sol#L67-L75) uses timestamp for comparisons\n\tDangerous comparisons:\n\t- [require(bool)(block.timestamp >= withdrawDelay)](TopKing.sol#L69)\n",
+        "first_markdown_element": "TopKing.sol#L67-L75",
+        "id": "1783fe50677f971dc17e19357c91d26173aec205ada223d2564ad4a5061f005a",
+        "check": "timestamp",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.4.26 is an outdated solc version. Use a more recent version (at least 0.8.0), if possible.\n",
+        "markdown": "solc-0.4.26 is an outdated solc version. Use a more recent version (at least 0.8.0), if possible.\n",
+        "first_markdown_element": "",
+        "id": "c7d638b1e771d6abd47c965e1dc1d602dca6481f45f5718f0f579b9cf306ec28",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.4.11",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_relative": "TopKing.sol",
+              "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x07f06a75ddf49de735d51dbf5c0a9062c034e7c6/TopKing.sol",
+              "filename_short": "TopKing.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.4",
+                ".11"
+              ]
+            }
+          }
+        ],
+        "description": "Version constraint ^0.4.11 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)\n\t- DirtyBytesArrayToStorage\n\t- KeccakCaching\n\t- EmptyByteArrayCopy\n\t- DynamicArrayCleanup\n\t- ImplicitConstructorCallvalueCheck\n\t- TupleAssignmentMultiStackSlotComponents\n\t- MemoryArrayCreationOverflow\n\t- privateCanBeOverridden\n\t- SignedArrayStorageCopy\n\t- UninitializedFunctionPointerInConstructor_0.4.x\n\t- IncorrectEventSignatureInLibraries_0.4.x\n\t- ExpExponentCleanup\n\t- NestedArrayFunctionCallDecoder\n\t- ZeroFunctionSelector\n\t- DelegateCallReturnValue\n\t- ECRecoverMalformedInput\n\t- SkipEmptyStringLiteral.\nIt is used by:\n\t- ^0.4.11 (TopKing.sol#1)\n",
+        "markdown": "Version constraint ^0.4.11 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)\n\t- DirtyBytesArrayToStorage\n\t- KeccakCaching\n\t- EmptyByteArrayCopy\n\t- DynamicArrayCleanup\n\t- ImplicitConstructorCallvalueCheck\n\t- TupleAssignmentMultiStackSlotComponents\n\t- MemoryArrayCreationOverflow\n\t- privateCanBeOverridden\n\t- SignedArrayStorageCopy\n\t- UninitializedFunctionPointerInConstructor_0.4.x\n\t- IncorrectEventSignatureInLibraries_0.4.x\n\t- ExpExponentCleanup\n\t- NestedArrayFunctionCallDecoder\n\t- ZeroFunctionSelector\n\t- DelegateCallReturnValue\n\t- ECRecoverMalformedInput\n\t- SkipEmptyStringLiteral.\nIt is used by:\n\t- [^0.4.11](TopKing.sol#L1)\n",
+        "first_markdown_element": "TopKing.sol#L1",
+        "id": "dc593f704825c6cb7a0ea1df4e3ff107227cd198bf0471824160974efd86cc60",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "takeAll",
+            "source_mapping": {
+              "start": 881,
+              "length": 164,
+              "filename_relative": "TopKing.sol",
+              "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x07f06a75ddf49de735d51dbf5c0a9062c034e7c6/TopKing.sol",
+              "filename_short": "TopKing.sol",
+              "is_dependency": false,
+              "lines": [
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "TopKing",
+                "source_mapping": {
+                  "start": 461,
+                  "length": 588,
+                  "filename_relative": "TopKing.sol",
+                  "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x07f06a75ddf49de735d51dbf5c0a9062c034e7c6/TopKing.sol",
+                  "filename_short": "TopKing.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "takeAll()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "msg.sender.transfer(this.balance)",
+            "source_mapping": {
+              "start": 982,
+              "length": 33,
+              "filename_relative": "TopKing.sol",
+              "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x07f06a75ddf49de735d51dbf5c0a9062c034e7c6/TopKing.sol",
+              "filename_short": "TopKing.sol",
+              "is_dependency": false,
+              "lines": [
+                71
+              ],
+              "starting_column": 9,
+              "ending_column": 42
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "takeAll",
+                "source_mapping": {
+                  "start": 881,
+                  "length": 164,
+                  "filename_relative": "TopKing.sol",
+                  "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x07f06a75ddf49de735d51dbf5c0a9062c034e7c6/TopKing.sol",
+                  "filename_short": "TopKing.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "TopKing",
+                    "source_mapping": {
+                      "start": 461,
+                      "length": 588,
+                      "filename_relative": "TopKing.sol",
+                      "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x07f06a75ddf49de735d51dbf5c0a9062c034e7c6/TopKing.sol",
+                      "filename_short": "TopKing.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "takeAll()"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "external_calls"
+            }
+          },
+          {
+            "type": "node",
+            "name": "jackpot = 0",
+            "source_mapping": {
+              "start": 1027,
+              "length": 9,
+              "filename_relative": "TopKing.sol",
+              "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x07f06a75ddf49de735d51dbf5c0a9062c034e7c6/TopKing.sol",
+              "filename_short": "TopKing.sol",
+              "is_dependency": false,
+              "lines": [
+                73
+              ],
+              "starting_column": 9,
+              "ending_column": 18
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "takeAll",
+                "source_mapping": {
+                  "start": 881,
+                  "length": 164,
+                  "filename_relative": "TopKing.sol",
+                  "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x07f06a75ddf49de735d51dbf5c0a9062c034e7c6/TopKing.sol",
+                  "filename_short": "TopKing.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "TopKing",
+                    "source_mapping": {
+                      "start": 461,
+                      "length": 588,
+                      "filename_relative": "TopKing.sol",
+                      "filename_absolute": "D:/CSE487 - PAPER/Dataset/raw_data/0x07f06a75ddf49de735d51dbf5c0a9062c034e7c6/TopKing.sol",
+                      "filename_short": "TopKing.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "takeAll()"
+                }
+              }
+            },
+            "additional_fields": {
+              "underlying_type": "variables_written",
+              "variable_name": "jackpot"
+            }
+          }
+        ],
+        "description": "Reentrancy in TopKing.takeAll() (TopKing.sol#67-75):\n\tExternal calls:\n\t- msg.sender.transfer(this.balance) (TopKing.sol#71)\n\tState variables written after the call(s):\n\t- jackpot = 0 (TopKing.sol#73)\n",
+        "markdown": "Reentrancy in [TopKing.takeAll()](TopKing.sol#L67-L75):\n\tExternal calls:\n\t- [msg.sender.transfer(this.balance)](TopKing.sol#L71)\n\tState variables written after the call(s):\n\t- [jackpot = 0](TopKing.sol#L73)\n",
+        "first_markdown_element": "TopKing.sol#L67-L75",
+        "id": "6f5b60692fd451acfe6abcebe10daf358075dacde5c119d308c945621c4d558c",
+        "check": "reentrancy-unlimited-gas",
+        "impact": "Informational",
+        "confidence": "Medium"
+      }
+    ]
+  }
+}
