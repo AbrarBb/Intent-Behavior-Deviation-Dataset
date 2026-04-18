@@ -1,5 +1,3 @@
-Here is a **fully professional, publication-quality README** with formal tone, structured presentation, and a clean consolidated results table. You can directly use this in your repository.
-
 ---
 
 # Intent–Behavior Deviation Detection in Smart Contracts
