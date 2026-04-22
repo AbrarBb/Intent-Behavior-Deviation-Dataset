@@ -165,14 +165,6 @@ The framework is therefore suitable for practical deployment in blockchain secur
 
 ---
 
-## 12. Project Information
-
-* Project Type: Capstone Project
-* Duration: Summer 2025 – Spring 2026
-* Final Defense: April 16, 2026
-
----
-
 If you want, I can next:
 
 * convert this into a **journal paper format (IEEE/ACM)**
